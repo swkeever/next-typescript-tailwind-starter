@@ -8,6 +8,7 @@ module.exports = {
     'standard',
     'prettier',
     'prettier/@typescript-eslint',
+    'plugin:jsx-a11y/strict',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -19,7 +20,8 @@ module.exports = {
   },
   plugins: [
     'react',
-    '@typescript-eslint'
+    '@typescript-eslint',
+    'jsx-a11y',
   ],
   rules: {
     'react/react-in-jsx-scope': 'off',

@@ -1,3 +1,3 @@
 export default function Home() {
-  return <h1>Next.js Template</h1>;
+  return <h1>Hello</h1>;
 }
