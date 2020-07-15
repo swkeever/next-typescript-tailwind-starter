@@ -1,4 +1,4 @@
-import '@styles/index.css';
+import '../styles.css';
 import { AppProps } from 'next/app';
 
 // This default export is required in a new `pages/_app.js` file.
