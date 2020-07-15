@@ -1,29 +1,22 @@
 module.exports = {
   env: {
     browser: true,
-    es2020: true
+    es2020: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'standard',
-    'prettier',
-    'prettier/@typescript-eslint',
-    'plugin:jsx-a11y/strict',
-  ],
+  extends: ['plugin:react/recommended', 'airbnb', 'plugin:jsx-a11y/strict'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
+      jsx: true,
     },
     ecmaVersion: 11,
-    sourceType: 'module'
+    sourceType: 'module',
   },
-  plugins: [
-    'react',
-    '@typescript-eslint',
-    'jsx-a11y',
-  ],
+  plugins: ['react', '@typescript-eslint', 'jsx-a11y'],
   rules: {
+    'react/jsx-filename-extension': 'off',
     'react/react-in-jsx-scope': 'off',
-  }
-}
+    'no-unused-vars': 'off',
+    // '@typescript-eslint/no-unused-vars': ['error'],
+  },
+};
