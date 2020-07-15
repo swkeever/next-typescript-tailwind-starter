@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Layout from 'components/Layout';
 
 export default function Home() {
   return (
@@ -7,15 +8,9 @@ export default function Home() {
         <title>Starter</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <header>
-        Header
-      </header>
-      <main>
+      <Layout>
         Main
-      </main>
-      <footer>
-        Footer
-      </footer>
+      </Layout>
     </>
   );
 }
