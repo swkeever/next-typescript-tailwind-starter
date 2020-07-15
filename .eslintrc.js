@@ -17,6 +17,7 @@ module.exports = {
     'react/jsx-filename-extension': 'off',
     'react/react-in-jsx-scope': 'off',
     'no-unused-vars': 'off',
+    'import/no-extraneous-dependencies': 'off',
     // '@typescript-eslint/no-unused-vars': ['error'],
   },
 };
